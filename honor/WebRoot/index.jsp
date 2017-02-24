@@ -7,7 +7,7 @@
 --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%
     String path = request.getContextPath();
@@ -22,20 +22,20 @@
   <body>
       <h1>登录</h1>
       <table>
-        <form method="get" action="/tc/user/login">
+        <form method="get" action="/honor/user/login">
           <input type="text" name="username" value=""><br>
           <input type="password" name="password" value=""><br>
           <input type="submit" value="登录">
         </form>
       </table>
-      <form method="post" action="/tc/user/image" enctype="multipart/form-data">
+      <form method="post" action="/honor/user/image" enctype="multipart/form-data">
         <input type="file" name="img" value=""><br>
         <input type="submit" value="上传">
       </form>
   <hr/>
       <h1>注册</h1>
       <table>
-          <form method="post" action="/tc/user/register">
+          <form method="post" action="/honor/user/register">
               <input type="text" name="username" value=""><br>
               <input type="password" name="password" value=""><br>
               <input type="submit" value="注册">
