@@ -1,3 +1,4 @@
+
 import com.jfinal.config.*;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
@@ -55,9 +56,9 @@ public class AppConfig extends JFinalConfig {
 
     @Override
     public void configInterceptor(Interceptors interceptors) {
-        //这里用于配置全局的拦截器，对所有请求进行拦截
+        //这里用于配置全局的拦截器，对�?��请求进行拦截
         //interceptors.addGlobalActionInterceptor(new AuthInterceptor());
-        // 添加业务层全局拦截器
+        // 添加业务层全�?��截器
         //interceptors.addGlobalServiceInterceptor(new GlobalServiceInterceptor());
     }
 
