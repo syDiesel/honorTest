@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="honor"
+  id="myeclipse.1487951879397"
+  context-root="/honor"
+  j2ee-spec="6.0"
+  archive="honor.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
